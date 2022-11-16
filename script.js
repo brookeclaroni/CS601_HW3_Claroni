@@ -5,7 +5,7 @@ function add(num1, num2) {
         num1 = prompt("There was an error interpretting your first number. Please re-enter it with numerical digits:");
     }
     while (isNaN(num2)) {
-        num2 = prompt("There was an error interpretting your first number. Please re-enter it with numerical digits:");
+        num2 = prompt("There was an error interpretting your second number. Please re-enter it with numerical digits:");
     }
     return Number(num1) + Number(num2);
 }
